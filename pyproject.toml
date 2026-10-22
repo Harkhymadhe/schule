@@ -1,0 +1,22 @@
+[project]
+name = "schule"
+version = "0.1.0"
+description = "A simple API for a school management system written in Python with FastAPI."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    'fastapi[all]>=0.115.11',
+    'loguru>=0.7.3',
+    'nest_asyncio==1.6.0',
+    'pydantic>=2.11.4',
+    'pydantic-settings>=2.9.1',
+    'pytest>=8.3.5',
+    'python-decouple>=3.8',
+    'rich>=13.9.4',
+    'richuru>=0.1.1',
+    'ruff>=0.12.3',
+    'scalar-fastapi>=1.0.3',
+    'tiktoken>=0.9.0',
+    'uvicorn>=0.34.0',
+    'uvloop==0.21.0'
+]

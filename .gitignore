@@ -1,0 +1,7 @@
+.ruff_cache
+__pycache__
+*egg-info
+*.db
+
+# Roopik IDE metadata
+.roopik/
